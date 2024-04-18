@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.57665b24.css",
+    "main.js": "/static/js/main.aa651532.js",
+    "static/media/WhatsApp Image 2024-03-17 at 12.01.44.png.jpeg": "/static/media/WhatsApp Image 2024-03-17 at 12.01.44.png.5272f4c4daa0b90c5720.jpeg",
+    "static/media/S-logo.png": "/static/media/S-logo.95c79f61171324a184ea.png",
+    "index.html": "/index.html",
+    "main.57665b24.css.map": "/static/css/main.57665b24.css.map",
+    "main.aa651532.js.map": "/static/js/main.aa651532.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57665b24.css",
+    "static/js/main.aa651532.js"
+  ]
+}
