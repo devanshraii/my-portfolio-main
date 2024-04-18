@@ -27,7 +27,7 @@ export const Introduction = () => {
                   {" "}
                   Jabalpur, Madhya Pradesh (India)
                 </span>
-                . I have pursuing my graduation in BTech IT (AI & Robotics)
+                . I am pursuing my graduation in BTech IT (AI & Robotics)
                 from{" "}
                 <span className="different">
                   Madhav Institute Of Technology & Science, Gwalior (MP)
