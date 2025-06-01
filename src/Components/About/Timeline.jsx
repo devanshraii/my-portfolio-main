@@ -31,6 +31,86 @@ export const Timeline = () => {
           My <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date={"Jan 2025 - April 2025"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Software Developer Intern
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Sprint Tech Labs
+            </h4>
+            <p data-aos="fade-right">
+              Engineered and optimized full-stack web applications using React.js & Node.js improving system efficiency by 30% and reducing response time by 40%.
+              Designed and implemented RESTful APIs for enterprise solutions, improving performance and scalability, and reducing latency by 50% through optimized request handling and efficient data flow.
+              Built interactive dashboards for AI-driven insights, enhancing data visualization, leading to a 25% improvement in user engagement and seamless data monitoring.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date={"May 2024 - June 2024"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Full stack Developer Intern
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Innobyte Services
+            </h4>
+            <p data-aos="fade-right">
+              Developed a scalable and reliable backend server, ensuring seamless user authentication with a 100% success rate
+for login and registration workflows.
+Designed and developed user interfaces for account registration and email verification flows, improving user
+onboarding experience.
+Optimized API performance by reducing server response time by 30%, leveraging efficient query handling,
+middleware optimization, and comprehensive endpoint testing with Postman.
+            </p>
+          </VerticalTimelineElement>
+          
           {/* <VerticalTimelineElement
             date={"Dec 2021 - Feb 2022"}
             contentStyle={{
@@ -106,7 +186,7 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement> */}
           <VerticalTimelineElement
-            date={"Oct 2021 - Present"}
+            date={"August 2021 - June 2025"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -128,7 +208,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              BTech in IT(AI & Robotics)
+              BTech in Information Technology(AI & Robotics)
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -140,81 +220,8 @@ export const Timeline = () => {
               7.6 CGPA
             </p> */}
           </VerticalTimelineElement>
-          {/* <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"Feb 2020 - Present"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Co-founder
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Agricultural Training institute, Ahmednagar
-            </h4>
-            <p data-aos="fade-right">
-              Started in Feb 2020 with 3 other co-founders and provided training
-              to 20,000+ farmers and 3000+ students till now. Also honored by
-              Agri-Education Award 2021 By Agriculture Today Group.
-            </p>
-          </VerticalTimelineElement> */}
-          {/* <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"Dec 2019 - Aug 2021"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Founder & Director (Part Time)
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Sitocrats Pvt. Ltd., Parbhani (MH)
-            </h4>
-            <p data-aos="fade-right">
-              Started in Dec 2019 and delivered 15+ Projects on wordpress,
-              Angular, Nodejs and Flutter till Aug 2021.
-            </p>
-          </VerticalTimelineElement> */}
+          
+          
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={"March 2021"}

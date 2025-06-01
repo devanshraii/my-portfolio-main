@@ -15,6 +15,11 @@ import {
   SiJavascript,
   SiMongodb,
   SiNodedotjs,
+  SiPandas,
+  SiNumpy,
+  SiPython,
+  SiScikitlearn,
+  SiTensorflow,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -28,12 +33,12 @@ export const Projects = () => {
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
-                <div>
+                {/* <div>
                   <img
                     src="https://camo.githubusercontent.com/63375d23b0967743fbb5a10a28b340c608587d4bd246437017d1f61df33afc40/68747470733a2f2f692e6962622e636f2f6746534d7a4b4e2f312e706e67"
                     alt="Chat App"
                   />
-                </div>
+                </div> */}
               </div>
               <div className="project_information">
                 <h2>Chat app</h2>
@@ -74,17 +79,18 @@ export const Projects = () => {
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
-                <div>
+                {/* <div>
                   <img
                     src="https://www.lifewire.com/thmb/D4fzBgiFlMxXW6h8946YbtkjRdY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Netflix_English-5baff18e4cedfd0026d27d78-3a224b5938464fe6a6299f8fe4945a5b.jpg"
                     alt="Sk-Weather-App"
                   />
-                </div>
+                </div> */}
               </div>
               <div className="project_information">
-                <h2>Netflix clone</h2>
+                <h2>SocialVibe</h2>
                 <p>
-                  Netflix clone with react frontend and firebase as backend with login and signup functionality with the help of firebase authentication, TMDB Api for all the Movies data, styled with tailwind CSS and deployed on Firebase.
+                  Developed a social networking app with real-time chat, media sharing, and interactive posts using Socket.io,
+enabling seamless user engagement, post replies, and likes.
                 </p>
                 <div>
                   {/* <DiCss3 /> */}
@@ -96,16 +102,16 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://fireclint.github.io/netflix-react-tailwind/"
+                    href="https://youtu.be/9NUREP0Zq98?si=Z0aIJmPun-1xPWWV"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt">
-                      See this Live
+                      See Video Demo
                     </span>
                   </a>
                   <a
-                    href="https://github.com/devanshraii/netflix-react-clone"
+                    href="https://github.com/devanshraii/Advanced-social-media-app"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -120,14 +126,14 @@ export const Projects = () => {
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
-                <div>
+                {/* <div>
                   <img src="https://camo.githubusercontent.com/62ba6cbe9b62d2ccb55c07db2258d33c782d0e15b3231153d7b0f20935b57272/68747470733a2f2f692e6962622e636f2f424b31486e30782f53637265656e73686f742d323032322d30382d30382d61742d342d30352d34382d504d2e706e67" alt="" />
-                </div>
+                </div> */}
               </div>
               <div className="project_information">
-                <h2>Modern Bank website</h2>
+                <h2>AI Form Builder</h2>
                 <p>
-                Responsive React JS application consisting of a stunning hero section, high-quality assets and gradients, business stats, reusable feature sections with call-to-action buttons, testimonials, and more.
+                Next js app where users can easily create customized forms by providing prompts, and the forms can be published for others to fill out. The admin of the form can access and view all responses submitted.
                 </p>
                 <div>
                   <SiHtml5 />
@@ -138,16 +144,16 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://github.com/devanshraii/Modern_bank_website"
+                    href="https://youtu.be/GpCGNi4si6I?si=3vfHjhHQVwfmRi6J"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      See this Live
+                      See Video Demo
                     </span>
                   </a>
                   <a
-                    href="https://github.com/devanshraii/Modern_bank_website"
+                    href="https://github.com/devanshraii/AI-form-builder"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -163,24 +169,25 @@ export const Projects = () => {
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
-                <div>
+                {/* <div>
                   <img
                     src="https://user-images.githubusercontent.com/23248726/224405420-03112a76-250a-4283-992c-60e235170678.png"
                     alt=""
                   />
-                </div>
+                </div> */}
               </div>
               <div className="project_information">
-                <h2>Twitter clone</h2>
+                <h2>Autism Prediction Model</h2>
                 <p>
-                  Twitter clone built with Next.js and react, styled with Tailwind CSS with prisma backend and MongoDB for database, login and signup functionality, authentication using Nextauth, likes comment and profile feature, fully written in typescript.
+                  Designed and trained a machine learning model to predict autism spectrum disorder based on 20 key
+features, achieving 85% accuracy using Logistic Regression, Random Forest, and Decision Tree algorithms
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
-                  <SiTypescript />
-                  <SiNextdotjs />
+                  <SiPandas />
+                  <SiNumpy />
+                  <SiPython />
+                  <SiScikitlearn />
+                  <SiTensorflow />
 
                 </div>
                 {/* <div>

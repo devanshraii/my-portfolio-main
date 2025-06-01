@@ -54,7 +54,7 @@ export const About = () => {
             <PhoneIcon />
           </a> */}
           <a
-            href="https://www.linkedin.com/in/devansh-rai-80627024b/"
+            href="https://www.linkedin.com/in/devanshraii/"
             aria-label="linkedin"
             className="link link--icon"
             target="_blank"

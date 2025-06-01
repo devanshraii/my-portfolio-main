@@ -27,7 +27,7 @@ export const Introduction = () => {
                   {" "}
                   Jabalpur, Madhya Pradesh (India)
                 </span>
-                . I am pursuing my graduation in BTech IT (AI & Robotics)
+                . I am pursuing my graduation in BTech Information Technology(AI & Robotics)
                 from{" "}
                 <span className="different">
                   Madhav Institute Of Technology & Science, Gwalior (MP)
@@ -44,26 +44,33 @@ export const Introduction = () => {
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Frontend: HTML, CSS, Javascript, React, Redux, RTK query, NEXT.js 14, Tailwind CSS, Typescript.{" "}
+                Frontend: HTML, CSS, Javascript, React.js, Redux, RTK query, NEXT.js 15, Tailwind CSS, Typescript.{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Backend: Node js, Express, Next, Typescript{" "}
+                Backend: Node.js, Express, Next.js, Typescript{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Database: MongoDB, SQL.{" "}
+                Database: MongoDB, MySQL, Postgres.{" "}
                 
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Other: Machine learning, Android development.{" "}
+                Data Science: Pandas, Numpy, Sk-learn, Seaborn, Pytorch, TensorFlow.{" "}
+                
+              </h4>
+              <h4 className="different">
+                <span className="icons">
+                  <ExitToAppIcon />
+                </span>
+                Android Development: Kotlin, Android 14 Jetpack Compose.{" "}
                 
               </h4>
             </div>
