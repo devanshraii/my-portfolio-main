@@ -77,7 +77,7 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://docs.google.com/document/d/1GdgG9wh5G_meRS0dlc8mvDVQqnapnaYD0LNU61NpK8M/edit?usp=sharing"
+              "https://docs.google.com/document/d/1TMN_1SSlV1QzBPidu2oBg0FfVlb96r70EQtu3VvMUvo/edit?usp=sharing"
             );
           }}
         >
